@@ -15,13 +15,13 @@ volgorde = 2 + 2 * 2
 haakjes = (2 + 2) * 2
 
 def opdracht_wiskunde():
-    # gebruik modulo om een remainder van 
+    # gebruik modulo om een remainder van 1 te krijgen
     modulo = # Werk Julien
     return modulo
 
 class test_math(unittest.TestCase):
     def test_delen(opdracht_wiskunde):
-        opdracht_wiskunde.assertEqual(modulo, 4
+        opdracht_wiskunde.assertEqual(modulo, 1)
 
 if __name__ == '__main__':
     unittest.main()
